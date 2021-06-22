@@ -1,0 +1,17 @@
+$VISION
+* PTV Group
+* 01.05.21
+* 
+* Tabelle: Versionsblock
+* 
+$VERSION:VERSNR;FILETYPE;LANGUAGE;UNIT
+12.000;Net;ENG;KM
+
+* 
+* Tabelle: Knoten
+* 
+$NODE:NO;XCOORD;YCOORD
+* 
+* Tabelle: Strecken
+* 
+$LINK:NO;FROMNODENO;TONODENO;TYPENO;TSYSSET;V0PRT
