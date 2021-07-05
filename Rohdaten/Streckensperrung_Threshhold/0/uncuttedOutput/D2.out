@@ -1,0 +1,649 @@
+00:00:00
+new vehicle0 @ 00:14:16 (sumoTime: 856 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh0'] arrived @ sumotime 884.0 seconds
+01:00:00
+[INFO: transfer Visum-Sumo]: [(1.0, 100.0, 4.995138888888889, 2.0, 1.0), (-3.0, 100.0, 0.0, 3.0, 4.0), (5.0, 100.0, 0.0, 5.0, 4.0)] 
+ [(3, 1)]
+Umlegung ausgeführt
+curVolumes: (10000, [(3, 1, 0)])
+new vehicle1 @ 01:00:22 (sumoTime: 3622 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh1'] arrived @ sumotime 3648.0 seconds
+new vehicle2 @ 01:06:35 (sumoTime: 3995 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh2'] arrived @ sumotime 4021.0 seconds
+new vehicle3 @ 01:08:40 (sumoTime: 4120 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh3'] arrived @ sumotime 4149.0 seconds
+02:00:00
+[INFO: transfer Visum-Sumo]: [(1.0, 100.0, 7.495138888888889, 2.0, 1.0), (-3.0, 100.0, 0.0, 3.0, 4.0), (5.0, 100.0, 0.0, 5.0, 4.0)] 
+ [(3, 3)]
+Umlegung ausgeführt
+curVolumes: (20000, [(3, 3, 0)])
+new vehicle4 @ 02:03:12 (sumoTime: 7392 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle5 @ 02:03:34 (sumoTime: 7414 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh4'] arrived @ sumotime 7420.0 seconds
+['newVeh5'] arrived @ sumotime 7440.0 seconds
+new vehicle6 @ 02:09:40 (sumoTime: 7780 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh6'] arrived @ sumotime 7806.0 seconds
+['newVeh6'] arrived @ sumotime 7807.0 seconds
+new vehicle7 @ 02:23:54 (sumoTime: 8634 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh7'] arrived @ sumotime 8659.0 seconds
+new vehicle8 @ 02:50:38 (sumoTime: 10238 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh8'] arrived @ sumotime 10268.0 seconds
+03:00:00
+[INFO: transfer Visum-Sumo]: [(1.0, 100.0, 9.995138888888889, 2.0, 1.0), (-3.0, 100.0, 0.0, 3.0, 4.0), (5.0, 100.0, 0.0, 5.0, 4.0)] 
+ [(3, 6)]
+Umlegung ausgeführt
+curVolumes: (30000, [(3, 6, 0)])
+new vehicle9 @ 03:07:50 (sumoTime: 11270 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle10 @ 03:08:03 (sumoTime: 11283 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh9'] arrived @ sumotime 11300.0 seconds
+['newVeh10'] arrived @ sumotime 11310.0 seconds
+new vehicle11 @ 03:11:52 (sumoTime: 11512 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh11'] arrived @ sumotime 11540.0 seconds
+new vehicle12 @ 03:12:23 (sumoTime: 11543 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh12'] arrived @ sumotime 11574.0 seconds
+new vehicle13 @ 03:32:29 (sumoTime: 12749 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh13'] arrived @ sumotime 12776.0 seconds
+new vehicle14 @ 03:54:06 (sumoTime: 14046 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh14'] arrived @ sumotime 14074.0 seconds
+new vehicle15 @ 03:55:20 (sumoTime: 14120 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle16 @ 03:55:26 (sumoTime: 14126 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh15'] arrived @ sumotime 14147.0 seconds
+['newVeh16'] arrived @ sumotime 14152.0 seconds
+04:00:00
+[INFO: transfer Visum-Sumo]: [(1.0, 100.0, 12.495138888888889, 2.0, 1.0), (-3.0, 100.0, 0.0, 3.0, 4.0), (5.0, 100.0, 0.0, 5.0, 4.0)] 
+ [(3, 8)]
+Umlegung ausgeführt
+curVolumes: (40000, [(3, 8, 0)])
+new vehicle17 @ 04:06:21 (sumoTime: 14781 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh17'] arrived @ sumotime 14811.0 seconds
+new vehicle18 @ 04:08:38 (sumoTime: 14918 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh18'] arrived @ sumotime 14945.0 seconds
+new vehicle19 @ 04:14:13 (sumoTime: 15253 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh19'] arrived @ sumotime 15278.0 seconds
+new vehicle20 @ 04:15:48 (sumoTime: 15348 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh20'] arrived @ sumotime 15374.0 seconds
+new vehicle21 @ 04:22:38 (sumoTime: 15758 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh21'] arrived @ sumotime 15788.0 seconds
+new vehicle22 @ 04:31:08 (sumoTime: 16268 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh22'] arrived @ sumotime 16294.0 seconds
+new vehicle23 @ 04:36:45 (sumoTime: 16605 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh23'] arrived @ sumotime 16631.0 seconds
+new vehicle24 @ 04:37:59 (sumoTime: 16679 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh24'] arrived @ sumotime 16708.0 seconds
+new vehicle25 @ 04:38:34 (sumoTime: 16714 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh25'] arrived @ sumotime 16740.0 seconds
+new vehicle26 @ 04:51:01 (sumoTime: 17461 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh26'] arrived @ sumotime 17490.0 seconds
+05:00:00
+[INFO: transfer Visum-Sumo]: [(1.0, 100.0, 14.995138888888889, 2.0, 1.0), (-3.0, 100.0, 0.0, 3.0, 4.0), (5.0, 100.0, 0.0, 5.0, 4.0)] 
+ [(3, 10)]
+Umlegung ausgeführt
+curVolumes: (50000, [(3, 10, 0)])
+new vehicle27 @ 05:04:22 (sumoTime: 18262 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh27'] arrived @ sumotime 18290.0 seconds
+new vehicle28 @ 05:06:13 (sumoTime: 18373 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh28'] arrived @ sumotime 18400.0 seconds
+new vehicle29 @ 05:17:00 (sumoTime: 19020 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle30 @ 05:17:18 (sumoTime: 19038 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh29'] arrived @ sumotime 19046.0 seconds
+['newVeh30'] arrived @ sumotime 19066.0 seconds
+new vehicle31 @ 05:20:41 (sumoTime: 19241 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh31'] arrived @ sumotime 19267.0 seconds
+new vehicle32 @ 05:29:58 (sumoTime: 19798 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh32'] arrived @ sumotime 19828.0 seconds
+new vehicle33 @ 05:34:49 (sumoTime: 20089 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh33'] arrived @ sumotime 20117.0 seconds
+new vehicle34 @ 05:38:21 (sumoTime: 20301 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh34'] arrived @ sumotime 20326.0 seconds
+new vehicle35 @ 05:40:48 (sumoTime: 20448 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh35'] arrived @ sumotime 20474.0 seconds
+new vehicle36 @ 05:42:17 (sumoTime: 20537 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh36'] arrived @ sumotime 20563.0 seconds
+new vehicle37 @ 05:47:59 (sumoTime: 20879 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh37'] arrived @ sumotime 20905.0 seconds
+new vehicle38 @ 05:50:13 (sumoTime: 21013 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle39 @ 05:50:38 (sumoTime: 21038 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh38'] arrived @ sumotime 21040.0 seconds
+['newVeh39'] arrived @ sumotime 21066.0 seconds
+new vehicle40 @ 05:53:04 (sumoTime: 21184 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh40'] arrived @ sumotime 21213.0 seconds
+new vehicle41 @ 05:55:59 (sumoTime: 21359 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh41'] arrived @ sumotime 21387.0 seconds
+06:00:00
+[INFO: transfer Visum-Sumo]: [(1.0, 100.0, 17.49513888888889, 2.0, 1.0), (-3.0, 100.0, 0.0, 3.0, 4.0), (5.0, 100.0, 0.0, 5.0, 4.0)] 
+ [(3, 15)]
+Umlegung ausgeführt
+curVolumes: (60000, [(3, 15, 0)])
+new vehicle42 @ 06:04:21 (sumoTime: 21861 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh42'] arrived @ sumotime 21889.0 seconds
+new vehicle43 @ 06:05:01 (sumoTime: 21901 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh43'] arrived @ sumotime 21932.0 seconds
+new vehicle44 @ 06:06:44 (sumoTime: 22004 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh44'] arrived @ sumotime 22028.0 seconds
+new vehicle45 @ 06:09:20 (sumoTime: 22160 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh45'] arrived @ sumotime 22187.0 seconds
+new vehicle46 @ 06:10:58 (sumoTime: 22258 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle47 @ 06:11:26 (sumoTime: 22286 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh46'] arrived @ sumotime 22287.0 seconds
+['newVeh47'] arrived @ sumotime 22312.0 seconds
+['newVeh47'] arrived @ sumotime 22313.0 seconds
+new vehicle48 @ 06:24:31 (sumoTime: 23071 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh48'] arrived @ sumotime 23100.0 seconds
+new vehicle49 @ 06:27:17 (sumoTime: 23237 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh49'] arrived @ sumotime 23265.0 seconds
+new vehicle50 @ 06:28:02 (sumoTime: 23282 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle51 @ 06:28:25 (sumoTime: 23305 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh50'] arrived @ sumotime 23308.0 seconds
+['newVeh50'] arrived @ sumotime 23309.0 seconds
+['newVeh51'] arrived @ sumotime 23330.0 seconds
+new vehicle52 @ 06:34:13 (sumoTime: 23653 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh52'] arrived @ sumotime 23681.0 seconds
+['newVeh52'] arrived @ sumotime 23682.0 seconds
+new vehicle53 @ 06:37:27 (sumoTime: 23847 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh53'] arrived @ sumotime 23873.0 seconds
+new vehicle54 @ 06:43:46 (sumoTime: 24226 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh54'] arrived @ sumotime 24252.0 seconds
+new vehicle55 @ 06:46:24 (sumoTime: 24384 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh55'] arrived @ sumotime 24410.0 seconds
+new vehicle56 @ 06:52:10 (sumoTime: 24730 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh56'] arrived @ sumotime 24757.0 seconds
+new vehicle57 @ 06:58:01 (sumoTime: 25081 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle58 @ 06:58:16 (sumoTime: 25096 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh57'] arrived @ sumotime 25110.0 seconds
+['newVeh58'] arrived @ sumotime 25121.0 seconds
+07:00:00
+[INFO: transfer Visum-Sumo]: [(1.0, 100.0, 19.99513888888889, 2.0, 1.0), (-3.0, 100.0, 0.0, 3.0, 4.0), (5.0, 100.0, 0.0, 5.0, 4.0)] 
+ [(3, 20)]
+Umlegung ausgeführt
+curVolumes: (70000, [(3, 20, 0)])
+new vehicle59 @ 07:02:12 (sumoTime: 25332 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh59'] arrived @ sumotime 25361.0 seconds
+new vehicle60 @ 07:04:36 (sumoTime: 25476 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh60'] arrived @ sumotime 25505.0 seconds
+new vehicle61 @ 07:05:11 (sumoTime: 25511 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh61'] arrived @ sumotime 25541.0 seconds
+new vehicle62 @ 07:07:30 (sumoTime: 25650 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh62'] arrived @ sumotime 25680.0 seconds
+new vehicle63 @ 07:09:26 (sumoTime: 25766 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh63'] arrived @ sumotime 25793.0 seconds
+new vehicle64 @ 07:10:33 (sumoTime: 25833 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh64'] arrived @ sumotime 25859.0 seconds
+new vehicle65 @ 07:11:44 (sumoTime: 25904 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle66 @ 07:12:01 (sumoTime: 25921 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh65'] arrived @ sumotime 25930.0 seconds
+new vehicle67 @ 07:12:16 (sumoTime: 25936 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh66'] arrived @ sumotime 25949.0 seconds
+['newVeh67'] arrived @ sumotime 25963.0 seconds
+new vehicle68 @ 07:17:19 (sumoTime: 26239 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh68'] arrived @ sumotime 26265.0 seconds
+new vehicle69 @ 07:18:26 (sumoTime: 26306 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh69'] arrived @ sumotime 26333.0 seconds
+new vehicle70 @ 07:20:46 (sumoTime: 26446 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh70'] arrived @ sumotime 26472.0 seconds
+new vehicle71 @ 07:24:35 (sumoTime: 26675 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle72 @ 07:24:56 (sumoTime: 26696 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh71'] arrived @ sumotime 26702.0 seconds
+['newVeh72'] arrived @ sumotime 26723.0 seconds
+new vehicle73 @ 07:25:56 (sumoTime: 26756 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh73'] arrived @ sumotime 26783.0 seconds
+new vehicle74 @ 07:27:32 (sumoTime: 26852 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh74'] arrived @ sumotime 26881.0 seconds
+new vehicle75 @ 07:29:08 (sumoTime: 26948 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh75'] arrived @ sumotime 26976.0 seconds
+new vehicle76 @ 07:38:21 (sumoTime: 27501 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh76'] arrived @ sumotime 27526.0 seconds
+new vehicle77 @ 07:51:14 (sumoTime: 28274 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh77'] arrived @ sumotime 28305.0 seconds
+new vehicle78 @ 07:54:53 (sumoTime: 28493 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh78'] arrived @ sumotime 28521.0 seconds
+new vehicle79 @ 07:56:47 (sumoTime: 28607 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh79'] arrived @ sumotime 28637.0 seconds
+new vehicle80 @ 07:58:58 (sumoTime: 28738 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh80'] arrived @ sumotime 28770.0 seconds
+08:00:00
+[INFO: transfer Visum-Sumo]: [(1.0, 100.0, 22.49513888888889, 2.0, 1.0), (-3.0, 100.0, 0.0, 3.0, 4.0), (5.0, 100.0, 0.0, 5.0, 4.0)] 
+ [(3, 22)]
+Umlegung ausgeführt
+curVolumes: (80000, [(3, 22, 0)])
+new vehicle81 @ 08:01:16 (sumoTime: 28876 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh81'] arrived @ sumotime 28926.0 seconds
+new vehicle82 @ 08:02:48 (sumoTime: 28968 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh82'] arrived @ sumotime 29021.0 seconds
+new vehicle83 @ 08:05:36 (sumoTime: 29136 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh83'] arrived @ sumotime 29191.0 seconds
+new vehicle84 @ 08:08:34 (sumoTime: 29314 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh84'] arrived @ sumotime 29365.0 seconds
+new vehicle85 @ 08:10:16 (sumoTime: 29416 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh85'] arrived @ sumotime 29466.0 seconds
+new vehicle86 @ 08:11:11 (sumoTime: 29471 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh86'] arrived @ sumotime 29524.0 seconds
+new vehicle87 @ 08:13:59 (sumoTime: 29639 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh87'] arrived @ sumotime 29688.0 seconds
+new vehicle88 @ 08:15:05 (sumoTime: 29705 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh88'] arrived @ sumotime 29755.0 seconds
+new vehicle89 @ 08:17:40 (sumoTime: 29860 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle90 @ 08:17:50 (sumoTime: 29870 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh89'] arrived @ sumotime 29917.0 seconds
+['newVeh90'] arrived @ sumotime 29922.0 seconds
+new vehicle91 @ 08:20:14 (sumoTime: 30014 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh91'] arrived @ sumotime 30065.0 seconds
+new vehicle92 @ 08:22:47 (sumoTime: 30167 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh92'] arrived @ sumotime 30216.0 seconds
+new vehicle93 @ 08:26:36 (sumoTime: 30396 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle94 @ 08:26:59 (sumoTime: 30419 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle95 @ 08:27:11 (sumoTime: 30431 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh93'] arrived @ sumotime 30451.0 seconds
+['newVeh94'] arrived @ sumotime 30473.0 seconds
+['newVeh95'] arrived @ sumotime 30489.0 seconds
+new vehicle96 @ 08:29:21 (sumoTime: 30561 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle97 @ 08:29:57 (sumoTime: 30597 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh96'] arrived @ sumotime 30610.0 seconds
+['newVeh97'] arrived @ sumotime 30647.0 seconds
+new vehicle98 @ 08:33:38 (sumoTime: 30818 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh98'] arrived @ sumotime 30868.0 seconds
+new vehicle99 @ 08:34:33 (sumoTime: 30873 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh99'] arrived @ sumotime 30938.0 seconds
+new vehicle100 @ 08:39:21 (sumoTime: 31161 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh100'] arrived @ sumotime 31216.0 seconds
+new vehicle101 @ 08:41:32 (sumoTime: 31292 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle102 @ 08:41:52 (sumoTime: 31312 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh101'] arrived @ sumotime 31347.0 seconds
+['newVeh102'] arrived @ sumotime 31366.0 seconds
+09:00:00
+[INFO: transfer Visum-Sumo]: [(1.0, 100.0, 24.99513888888889, 2.0, 1.0), (-3.0, 100.0, 0.0, 3.0, 4.0), (5.0, 100.0, 0.0, 5.0, 4.0)] 
+ [(3, 22)]
+Umlegung ausgeführt
+curVolumes: (90000, [(3, 22, 0)])
+new vehicle103 @ 09:02:04 (sumoTime: 32524 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh103'] arrived @ sumotime 32578.0 seconds
+new vehicle104 @ 09:05:11 (sumoTime: 32711 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle105 @ 09:05:25 (sumoTime: 32725 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh104'] arrived @ sumotime 32761.0 seconds
+['newVeh105'] arrived @ sumotime 32773.0 seconds
+new vehicle106 @ 09:10:28 (sumoTime: 33028 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh106'] arrived @ sumotime 33082.0 seconds
+new vehicle107 @ 09:12:35 (sumoTime: 33155 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh107'] arrived @ sumotime 33209.0 seconds
+new vehicle108 @ 09:14:11 (sumoTime: 33251 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle109 @ 09:14:12 (sumoTime: 33252 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh108'] arrived @ sumotime 33304.0 seconds
+['newVeh109'] arrived @ sumotime 33310.0 seconds
+new vehicle110 @ 09:19:45 (sumoTime: 33585 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh110'] arrived @ sumotime 33637.0 seconds
+new vehicle111 @ 09:25:32 (sumoTime: 33932 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle112 @ 09:25:42 (sumoTime: 33942 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh111'] arrived @ sumotime 33983.0 seconds
+['newVeh112'] arrived @ sumotime 33998.0 seconds
+new vehicle113 @ 09:27:08 (sumoTime: 34028 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh113'] arrived @ sumotime 34079.0 seconds
+new vehicle114 @ 09:28:58 (sumoTime: 34138 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh114'] arrived @ sumotime 34194.0 seconds
+new vehicle115 @ 09:35:14 (sumoTime: 34514 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh115'] arrived @ sumotime 34567.0 seconds
+['newVeh115'] arrived @ sumotime 34568.0 seconds
+new vehicle116 @ 09:47:25 (sumoTime: 35245 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle117 @ 09:48:17 (sumoTime: 35297 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh116'] arrived @ sumotime 35300.0 seconds
+new vehicle118 @ 09:48:32 (sumoTime: 35312 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh117'] arrived @ sumotime 35348.0 seconds
+['newVeh118'] arrived @ sumotime 35370.0 seconds
+new vehicle119 @ 09:51:17 (sumoTime: 35477 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle120 @ 09:51:46 (sumoTime: 35506 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh119'] arrived @ sumotime 35529.0 seconds
+['newVeh120'] arrived @ sumotime 35556.0 seconds
+new vehicle121 @ 09:52:58 (sumoTime: 35578 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh121'] arrived @ sumotime 35633.0 seconds
+new vehicle122 @ 09:53:56 (sumoTime: 35636 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh122'] arrived @ sumotime 35687.0 seconds
+new vehicle123 @ 09:58:02 (sumoTime: 35882 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh123'] arrived @ sumotime 35944.0 seconds
+10:00:00
+[INFO: transfer Visum-Sumo]: [(1.0, 100.0, 27.49513888888889, 2.0, 1.0), (-3.0, 100.0, 0.0, 3.0, 4.0), (5.0, 100.0, 0.0, 5.0, 4.0)] 
+ [(3, 22)]
+Umlegung ausgeführt
+curVolumes: (100000, [(3, 22, 0)])
+new vehicle124 @ 10:06:04 (sumoTime: 36364 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh124'] arrived @ sumotime 36412.0 seconds
+new vehicle125 @ 10:08:24 (sumoTime: 36504 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh125'] arrived @ sumotime 36556.0 seconds
+new vehicle126 @ 10:09:40 (sumoTime: 36580 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh126'] arrived @ sumotime 36634.0 seconds
+new vehicle127 @ 10:12:32 (sumoTime: 36752 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh127'] arrived @ sumotime 36812.0 seconds
+new vehicle128 @ 10:13:48 (sumoTime: 36828 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle129 @ 10:14:25 (sumoTime: 36865 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh128'] arrived @ sumotime 36884.0 seconds
+['newVeh129'] arrived @ sumotime 36914.0 seconds
+new vehicle130 @ 10:20:20 (sumoTime: 37220 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh130'] arrived @ sumotime 37270.0 seconds
+new vehicle131 @ 10:22:30 (sumoTime: 37350 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle132 @ 10:22:36 (sumoTime: 37356 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh131'] arrived @ sumotime 37401.0 seconds
+['newVeh132'] arrived @ sumotime 37413.0 seconds
+new vehicle133 @ 10:24:11 (sumoTime: 37451 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle134 @ 10:24:41 (sumoTime: 37481 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh133'] arrived @ sumotime 37503.0 seconds
+['newVeh134'] arrived @ sumotime 37529.0 seconds
+['newVeh134'] arrived @ sumotime 37530.0 seconds
+new vehicle135 @ 10:26:04 (sumoTime: 37564 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle136 @ 10:26:10 (sumoTime: 37570 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh135'] arrived @ sumotime 37626.0 seconds
+['newVeh136'] arrived @ sumotime 37628.0 seconds
+new vehicle137 @ 10:29:04 (sumoTime: 37744 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh137'] arrived @ sumotime 37800.0 seconds
+new vehicle138 @ 10:30:09 (sumoTime: 37809 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh138'] arrived @ sumotime 37863.0 seconds
+new vehicle139 @ 10:32:50 (sumoTime: 37970 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle140 @ 10:33:02 (sumoTime: 37982 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh139'] arrived @ sumotime 38019.0 seconds
+['newVeh139'] arrived @ sumotime 38020.0 seconds
+['newVeh140'] arrived @ sumotime 38033.0 seconds
+new vehicle141 @ 10:36:18 (sumoTime: 38178 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh141'] arrived @ sumotime 38233.0 seconds
+new vehicle142 @ 10:45:45 (sumoTime: 38745 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh142'] arrived @ sumotime 38794.0 seconds
+['newVeh142'] arrived @ sumotime 38795.0 seconds
+new vehicle143 @ 10:48:20 (sumoTime: 38900 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh143'] arrived @ sumotime 38947.0 seconds
+new vehicle144 @ 10:50:20 (sumoTime: 39020 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh144'] arrived @ sumotime 39072.0 seconds
+new vehicle145 @ 10:52:19 (sumoTime: 39139 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh145'] arrived @ sumotime 39188.0 seconds
+new vehicle146 @ 10:53:13 (sumoTime: 39193 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh146'] arrived @ sumotime 39244.0 seconds
+new vehicle147 @ 10:56:40 (sumoTime: 39400 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh147'] arrived @ sumotime 39456.0 seconds
+11:00:00
+[INFO: transfer Visum-Sumo]: [(1.0, 100.0, 29.99513888888889, 2.0, 1.0), (-3.0, 100.0, 0.0, 3.0, 4.0), (5.0, 100.0, 0.0, 5.0, 4.0)] 
+ [(3, 27)]
+Umlegung ausgeführt
+curVolumes: (110000, [(3, 27, 0)])
+new vehicle148 @ 11:02:36 (sumoTime: 39756 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh148'] arrived @ sumotime 39811.0 seconds
+new vehicle149 @ 11:04:30 (sumoTime: 39870 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle150 @ 11:04:52 (sumoTime: 39892 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle151 @ 11:04:54 (sumoTime: 39894 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh149'] arrived @ sumotime 39919.0 seconds
+['newVeh149'] arrived @ sumotime 39920.0 seconds
+['newVeh150'] arrived @ sumotime 39941.0 seconds
+['newVeh151'] arrived @ sumotime 39949.0 seconds
+new vehicle152 @ 11:09:38 (sumoTime: 40178 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh152'] arrived @ sumotime 40231.0 seconds
+new vehicle153 @ 11:14:12 (sumoTime: 40452 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh153'] arrived @ sumotime 40506.0 seconds
+new vehicle154 @ 11:18:41 (sumoTime: 40721 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh154'] arrived @ sumotime 40772.0 seconds
+new vehicle155 @ 11:21:08 (sumoTime: 40868 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle156 @ 11:21:16 (sumoTime: 40876 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh155'] arrived @ sumotime 40916.0 seconds
+['newVeh156'] arrived @ sumotime 40929.0 seconds
+new vehicle157 @ 11:32:43 (sumoTime: 41563 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh157'] arrived @ sumotime 41610.0 seconds
+new vehicle158 @ 11:38:15 (sumoTime: 41895 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh158'] arrived @ sumotime 41944.0 seconds
+new vehicle159 @ 11:45:49 (sumoTime: 42349 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle160 @ 11:46:43 (sumoTime: 42403 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh159'] arrived @ sumotime 42403.0 seconds
+new vehicle161 @ 11:47:01 (sumoTime: 42421 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh160'] arrived @ sumotime 42462.0 seconds
+['newVeh161'] arrived @ sumotime 42476.0 seconds
+new vehicle162 @ 11:49:16 (sumoTime: 42556 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle163 @ 11:49:45 (sumoTime: 42585 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh162'] arrived @ sumotime 42605.0 seconds
+['newVeh163'] arrived @ sumotime 42635.0 seconds
+new vehicle164 @ 11:54:30 (sumoTime: 42870 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle165 @ 11:54:36 (sumoTime: 42876 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh164'] arrived @ sumotime 42920.0 seconds
+['newVeh165'] arrived @ sumotime 42926.0 seconds
+new vehicle166 @ 11:56:59 (sumoTime: 43019 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle167 @ 11:57:37 (sumoTime: 43057 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle168 @ 11:57:38 (sumoTime: 43058 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh166'] arrived @ sumotime 43067.0 seconds
+new vehicle169 @ 11:57:51 (sumoTime: 43071 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh167'] arrived @ sumotime 43111.0 seconds
+['newVeh167'] arrived @ sumotime 43112.0 seconds
+['newVeh168'] arrived @ sumotime 43118.0 seconds
+['newVeh169'] arrived @ sumotime 43125.0 seconds
+12:00:00
+[INFO: transfer Visum-Sumo]: [(1.0, 100.0, 32.49513888888889, 2.0, 1.0), (-3.0, 100.0, 0.0, 3.0, 4.0), (5.0, 100.0, 0.0, 5.0, 4.0)] 
+ [(3, 24)]
+Umlegung ausgeführt
+curVolumes: (120000, [(3, 24, 0)])
+new vehicle170 @ 12:00:44 (sumoTime: 43244 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh170'] arrived @ sumotime 43273.0 seconds
+new vehicle171 @ 12:02:11 (sumoTime: 43331 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh171'] arrived @ sumotime 43364.0 seconds
+new vehicle172 @ 12:03:53 (sumoTime: 43433 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh172'] arrived @ sumotime 43458.0 seconds
+new vehicle173 @ 12:07:19 (sumoTime: 43639 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh173'] arrived @ sumotime 43666.0 seconds
+new vehicle174 @ 12:10:26 (sumoTime: 43826 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle175 @ 12:10:43 (sumoTime: 43843 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh174'] arrived @ sumotime 43853.0 seconds
+['newVeh175'] arrived @ sumotime 43869.0 seconds
+new vehicle176 @ 12:11:45 (sumoTime: 43905 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle177 @ 12:12:06 (sumoTime: 43926 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh176'] arrived @ sumotime 43932.0 seconds
+['newVeh177'] arrived @ sumotime 43954.0 seconds
+new vehicle178 @ 12:13:16 (sumoTime: 43996 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh178'] arrived @ sumotime 44023.0 seconds
+new vehicle179 @ 12:14:30 (sumoTime: 44070 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh179'] arrived @ sumotime 44101.0 seconds
+new vehicle180 @ 12:15:29 (sumoTime: 44129 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh180'] arrived @ sumotime 44156.0 seconds
+new vehicle181 @ 12:17:33 (sumoTime: 44253 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh181'] arrived @ sumotime 44279.0 seconds
+['newVeh181'] arrived @ sumotime 44280.0 seconds
+new vehicle182 @ 12:26:15 (sumoTime: 44775 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh182'] arrived @ sumotime 44803.0 seconds
+new vehicle183 @ 12:27:00 (sumoTime: 44820 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle184 @ 12:27:03 (sumoTime: 44823 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh183'] arrived @ sumotime 44846.0 seconds
+['newVeh184'] arrived @ sumotime 44855.0 seconds
+new vehicle185 @ 12:27:37 (sumoTime: 44857 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle186 @ 12:27:56 (sumoTime: 44876 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh185'] arrived @ sumotime 44883.0 seconds
+new vehicle187 @ 12:28:11 (sumoTime: 44891 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh186'] arrived @ sumotime 44906.0 seconds
+['newVeh187'] arrived @ sumotime 44919.0 seconds
+new vehicle188 @ 12:29:10 (sumoTime: 44950 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle189 @ 12:29:33 (sumoTime: 44973 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh188'] arrived @ sumotime 44976.0 seconds
+new vehicle190 @ 12:30:03 (sumoTime: 45003 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh189'] arrived @ sumotime 45004.0 seconds
+['newVeh189'] arrived @ sumotime 45005.0 seconds
+['newVeh190'] arrived @ sumotime 45033.0 seconds
+new vehicle191 @ 12:31:41 (sumoTime: 45101 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle192 @ 12:31:43 (sumoTime: 45103 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh191'] arrived @ sumotime 45127.0 seconds
+['newVeh192'] arrived @ sumotime 45131.0 seconds
+new vehicle193 @ 12:32:43 (sumoTime: 45163 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh193'] arrived @ sumotime 45190.0 seconds
+new vehicle194 @ 12:35:55 (sumoTime: 45355 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle195 @ 12:36:09 (sumoTime: 45369 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh194'] arrived @ sumotime 45382.0 seconds
+['newVeh195'] arrived @ sumotime 45396.0 seconds
+new vehicle196 @ 12:41:06 (sumoTime: 45666 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh196'] arrived @ sumotime 45694.0 seconds
+new vehicle197 @ 12:41:36 (sumoTime: 45696 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh197'] arrived @ sumotime 45723.0 seconds
+new vehicle198 @ 12:44:21 (sumoTime: 45861 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh198'] arrived @ sumotime 45887.0 seconds
+new vehicle199 @ 12:48:22 (sumoTime: 46102 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh199'] arrived @ sumotime 46129.0 seconds
+new vehicle200 @ 12:51:14 (sumoTime: 46274 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh200'] arrived @ sumotime 46301.0 seconds
+new vehicle201 @ 12:54:48 (sumoTime: 46488 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh201'] arrived @ sumotime 46514.0 seconds
+new vehicle202 @ 12:55:29 (sumoTime: 46529 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle203 @ 12:55:29 (sumoTime: 46529 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle204 @ 12:56:01 (sumoTime: 46561 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh202'] arrived @ sumotime 46561.0 seconds
+['newVeh203'] arrived @ sumotime 46562.0 seconds
+['newVeh204'] arrived @ sumotime 46587.0 seconds
+new vehicle205 @ 12:58:00 (sumoTime: 46680 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh205'] arrived @ sumotime 46706.0 seconds
+13:00:00
+[INFO: transfer Visum-Sumo]: [(1.0, 100.0, 34.99513888888889, 2.0, 1.0), (-3.0, 100.0, 0.0, 3.0, 4.0), (5.0, 100.0, 0.0, 5.0, 4.0)] 
+ [(3, 38)]
+Umlegung ausgeführt
+curVolumes: (130000, [(3, 38, 0)])
+new vehicle206 @ 13:05:34 (sumoTime: 47134 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle207 @ 13:05:51 (sumoTime: 47151 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle208 @ 13:05:57 (sumoTime: 47157 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh206'] arrived @ sumotime 47162.0 seconds
+['newVeh207'] arrived @ sumotime 47179.0 seconds
+['newVeh208'] arrived @ sumotime 47184.0 seconds
+new vehicle209 @ 13:07:08 (sumoTime: 47228 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle210 @ 13:07:33 (sumoTime: 47253 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh209'] arrived @ sumotime 47254.0 seconds
+['newVeh210'] arrived @ sumotime 47280.0 seconds
+new vehicle211 @ 13:09:49 (sumoTime: 47389 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh211'] arrived @ sumotime 47415.0 seconds
+new vehicle212 @ 13:13:19 (sumoTime: 47599 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh212'] arrived @ sumotime 47626.0 seconds
+new vehicle213 @ 13:16:58 (sumoTime: 47818 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh213'] arrived @ sumotime 47849.0 seconds
+new vehicle214 @ 13:21:46 (sumoTime: 48106 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh214'] arrived @ sumotime 48135.0 seconds
+new vehicle215 @ 13:22:36 (sumoTime: 48156 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh215'] arrived @ sumotime 48182.0 seconds
+new vehicle216 @ 13:23:58 (sumoTime: 48238 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh216'] arrived @ sumotime 48265.0 seconds
+new vehicle217 @ 13:25:12 (sumoTime: 48312 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh217'] arrived @ sumotime 48339.0 seconds
+new vehicle218 @ 13:31:47 (sumoTime: 48707 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh218'] arrived @ sumotime 48734.0 seconds
+new vehicle219 @ 13:33:39 (sumoTime: 48819 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh219'] arrived @ sumotime 48847.0 seconds
+new vehicle220 @ 13:35:43 (sumoTime: 48943 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh220'] arrived @ sumotime 48969.0 seconds
+new vehicle221 @ 13:37:30 (sumoTime: 49050 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh221'] arrived @ sumotime 49077.0 seconds
+new vehicle222 @ 13:40:26 (sumoTime: 49226 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle223 @ 13:40:34 (sumoTime: 49234 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh222'] arrived @ sumotime 49258.0 seconds
+['newVeh223'] arrived @ sumotime 49263.0 seconds
+new vehicle224 @ 13:49:30 (sumoTime: 49770 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle225 @ 13:49:57 (sumoTime: 49797 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh224'] arrived @ sumotime 49797.0 seconds
+new vehicle226 @ 13:50:20 (sumoTime: 49820 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh225'] arrived @ sumotime 49823.0 seconds
+['newVeh226'] arrived @ sumotime 49845.0 seconds
+new vehicle227 @ 13:52:55 (sumoTime: 49975 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh227'] arrived @ sumotime 50001.0 seconds
+new vehicle228 @ 13:53:40 (sumoTime: 50020 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle229 @ 13:53:45 (sumoTime: 50025 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh228'] arrived @ sumotime 50048.0 seconds
+['newVeh229'] arrived @ sumotime 50052.0 seconds
+new vehicle230 @ 13:56:40 (sumoTime: 50200 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh230'] arrived @ sumotime 50225.0 seconds
+new vehicle231 @ 13:57:07 (sumoTime: 50227 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh231'] arrived @ sumotime 50254.0 seconds
+new vehicle232 @ 13:58:15 (sumoTime: 50295 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh232'] arrived @ sumotime 50323.0 seconds
+new vehicle233 @ 13:59:10 (sumoTime: 50350 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh233'] arrived @ sumotime 50377.0 seconds
+14:00:00
+[INFO: transfer Visum-Sumo]: [(1.0, 100.0, 37.49513888888889, 2.0, 1.0), (-3.0, 100.0, 0.0, 3.0, 4.0), (5.0, 100.0, 0.0, 5.0, 4.0)] 
+ [(3, 28)]
+Umlegung ausgeführt
+curVolumes: (140000, [(3, 28, 0)])
+new vehicle234 @ 14:00:59 (sumoTime: 50459 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle235 @ 14:01:21 (sumoTime: 50481 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh234'] arrived @ sumotime 50490.0 seconds
+['newVeh235'] arrived @ sumotime 50509.0 seconds
+new vehicle236 @ 14:02:33 (sumoTime: 50553 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh236'] arrived @ sumotime 50580.0 seconds
+new vehicle237 @ 14:04:30 (sumoTime: 50670 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh237'] arrived @ sumotime 50696.0 seconds
+new vehicle238 @ 14:07:33 (sumoTime: 50853 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh238'] arrived @ sumotime 50879.0 seconds
+new vehicle239 @ 14:09:10 (sumoTime: 50950 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh239'] arrived @ sumotime 50977.0 seconds
+new vehicle240 @ 14:14:16 (sumoTime: 51256 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle241 @ 14:14:37 (sumoTime: 51277 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle242 @ 14:14:46 (sumoTime: 51286 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh240'] arrived @ sumotime 51286.0 seconds
+['newVeh241'] arrived @ sumotime 51306.0 seconds
+['newVeh242'] arrived @ sumotime 51313.0 seconds
+new vehicle243 @ 14:15:36 (sumoTime: 51336 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh243'] arrived @ sumotime 51362.0 seconds
+new vehicle244 @ 14:16:49 (sumoTime: 51409 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh244'] arrived @ sumotime 51437.0 seconds
+new vehicle245 @ 14:18:13 (sumoTime: 51493 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh245'] arrived @ sumotime 51522.0 seconds
+new vehicle246 @ 14:19:04 (sumoTime: 51544 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh246'] arrived @ sumotime 51570.0 seconds
+new vehicle247 @ 14:20:13 (sumoTime: 51613 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh247'] arrived @ sumotime 51639.0 seconds
+new vehicle248 @ 14:22:24 (sumoTime: 51744 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh248'] arrived @ sumotime 51769.0 seconds
+new vehicle249 @ 14:23:13 (sumoTime: 51793 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh249'] arrived @ sumotime 51819.0 seconds
+new vehicle250 @ 14:31:02 (sumoTime: 52262 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh250'] arrived @ sumotime 52289.0 seconds
+new vehicle251 @ 14:31:36 (sumoTime: 52296 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle252 @ 14:31:48 (sumoTime: 52308 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh251'] arrived @ sumotime 52326.0 seconds
+['newVeh251'] arrived @ sumotime 52327.0 seconds
+['newVeh252'] arrived @ sumotime 52335.0 seconds
+new vehicle253 @ 14:34:04 (sumoTime: 52444 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh253'] arrived @ sumotime 52470.0 seconds
+new vehicle254 @ 14:34:35 (sumoTime: 52475 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh254'] arrived @ sumotime 52502.0 seconds
+new vehicle255 @ 14:36:52 (sumoTime: 52612 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh255'] arrived @ sumotime 52638.0 seconds
+new vehicle256 @ 14:37:36 (sumoTime: 52656 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh256'] arrived @ sumotime 52683.0 seconds
+new vehicle257 @ 14:40:08 (sumoTime: 52808 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh257'] arrived @ sumotime 52836.0 seconds
+new vehicle258 @ 14:41:32 (sumoTime: 52892 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh258'] arrived @ sumotime 52920.0 seconds
+new vehicle259 @ 14:43:04 (sumoTime: 52984 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle260 @ 14:43:11 (sumoTime: 52991 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh259'] arrived @ sumotime 53012.0 seconds
+['newVeh260'] arrived @ sumotime 53021.0 seconds
+new vehicle261 @ 14:44:29 (sumoTime: 53069 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh261'] arrived @ sumotime 53099.0 seconds
+new vehicle262 @ 14:45:28 (sumoTime: 53128 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle263 @ 14:45:31 (sumoTime: 53131 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh262'] arrived @ sumotime 53155.0 seconds
+['newVeh263'] arrived @ sumotime 53158.0 seconds
+new vehicle264 @ 14:46:10 (sumoTime: 53170 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+new vehicle265 @ 14:46:34 (sumoTime: 53194 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh264'] arrived @ sumotime 53198.0 seconds
+['newVeh265'] arrived @ sumotime 53221.0 seconds
+new vehicle266 @ 14:51:56 (sumoTime: 53516 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh266'] arrived @ sumotime 53540.0 seconds
+new vehicle267 @ 14:53:38 (sumoTime: 53618 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh267'] arrived @ sumotime 53644.0 seconds
+new vehicle268 @ 14:55:56 (sumoTime: 53756 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh268'] arrived @ sumotime 53782.0 seconds
+new vehicle269 @ 14:57:35 (sumoTime: 53855 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh269'] arrived @ sumotime 53885.0 seconds
+new vehicle270 @ 14:58:46 (sumoTime: 53926 seconds) on link 1 with path_nodes [1, 2, 3, 4] which means path_links [1, 2, 3]
+['newVeh270'] arrived @ sumotime 53955.0 seconds
+Gesamte Auslastung: 296
+Summe erzeugter Fahrzeuge: 271
+-> Fahrzeuge verloren: 25
+Neue Umlegungen nötig: [False, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+Tupel bestehend aus: VolVisum, geplantesVolSumo, avgArrTimeVisum, avgArrTimeSumo
+Link: 1 -> [(2, 2, 1800, 4530), (5, 4, 720, 1213), (7, 6, 514, 850), (10, 9, 360, 500), (12, 11, 300, 323), (15, 16, 240, 234), (17, 18, 211, 196), (20, 23, 180, 157), (22, 23, 163, 173), (25, 22, 144, 167), (27, 25, 133, 136), (30, 23, 120, 166), (32, 37, 112, 100), (35, 29, 102, 117), (37, 38, 97, 100)]
+Link: 3 -> []
+Link: 5 -> []
+VolumenInSumo: [(1416, ['1', '2', '3']), (10022, ['1', '2', '3']), (10635, ['1', '2', '3']), (10840, ['1', '2', '3']), (20312, ['1', '2', '3']), (20334, ['1', '2', '3']), (20940, ['1', '2', '3']), (22354, ['1', '2', '3']), (25038, ['1', '2', '3']), (30750, ['1', '2', '3']), (30803, ['1', '2', '3']), (31152, ['1', '2', '3']), (31223, ['1', '2', '3']), (33229, ['1', '2', '3']), (35406, ['1', '2', '3']), (35520, ['1', '2', '3']), (35526, ['1', '2', '3']), (40621, ['1', '2', '3']), (40838, ['1', '2', '3']), (41413, ['1', '2', '3']), (41548, ['1', '2', '3']), (42238, ['1', '2', '3']), (43108, ['1', '2', '3']), (43645, ['1', '2', '3']), (43759, ['1', '2', '3']), (43834, ['1', '2', '3']), (45101, ['1', '2', '3']), (50422, ['1', '2', '3']), (50613, ['1', '2', '3']), (51700, ['1', '2', '3']), (51718, ['1', '2', '3']), (52041, ['1', '2', '3']), (52958, ['1', '2', '3']), (53449, ['1', '2', '3']), (53821, ['1', '2', '3']), (54048, ['1', '2', '3']), (54217, ['1', '2', '3']), (54759, ['1', '2', '3']), (55013, ['1', '2', '3']), (55038, ['1', '2', '3']), (55304, ['1', '2', '3']), (55559, ['1', '2', '3']), (60421, ['1', '2', '3']), (60501, ['1', '2', '3']), (60644, ['1', '2', '3']), (60920, ['1', '2', '3']), (61058, ['1', '2', '3']), (61126, ['1', '2', '3']), (62431, ['1', '2', '3']), (62717, ['1', '2', '3']), (62802, ['1', '2', '3']), (62825, ['1', '2', '3']), (63413, ['1', '2', '3']), (63727, ['1', '2', '3']), (64346, ['1', '2', '3']), (64624, ['1', '2', '3']), (65210, ['1', '2', '3']), (65801, ['1', '2', '3']), (65816, ['1', '2', '3']), (70212, ['1', '2', '3']), (70436, ['1', '2', '3']), (70511, ['1', '2', '3']), (70730, ['1', '2', '3']), (70926, ['1', '2', '3']), (71033, ['1', '2', '3']), (71144, ['1', '2', '3']), (71201, ['1', '2', '3']), (71216, ['1', '2', '3']), (71719, ['1', '2', '3']), (71826, ['1', '2', '3']), (72046, ['1', '2', '3']), (72435, ['1', '2', '3']), (72456, ['1', '2', '3']), (72556, ['1', '2', '3']), (72732, ['1', '2', '3']), (72908, ['1', '2', '3']), (73821, ['1', '2', '3']), (75114, ['1', '2', '3']), (75453, ['1', '2', '3']), (75647, ['1', '2', '3']), (75858, ['1', '2', '3']), (80116, ['1', '6', '7', '-8', '3']), (80248, ['1', '6', '7', '-8', '3']), (80536, ['1', '6', '7', '-8', '3']), (80834, ['1', '6', '7', '-8', '3']), (81016, ['1', '6', '7', '-8', '3']), (81111, ['1', '6', '7', '-8', '3']), (81359, ['1', '6', '7', '-8', '3']), (81505, ['1', '6', '7', '-8', '3']), (81740, ['1', '6', '7', '-8', '3']), (81750, ['1', '6', '7', '-8', '3']), (82014, ['1', '6', '7', '-8', '3']), (82247, ['1', '6', '7', '-8', '3']), (82636, ['1', '6', '7', '-8', '3']), (82659, ['1', '6', '7', '-8', '3']), (82711, ['1', '6', '7', '-8', '3']), (82921, ['1', '6', '7', '-8', '3']), (82957, ['1', '6', '7', '-8', '3']), (83338, ['1', '6', '7', '-8', '3']), (83433, ['1', '6', '7', '-8', '3']), (83921, ['1', '6', '7', '-8', '3']), (84132, ['1', '6', '7', '-8', '3']), (84152, ['1', '6', '7', '-8', '3']), (90204, ['1', '6', '7', '-8', '3']), (90511, ['1', '6', '7', '-8', '3']), (90525, ['1', '6', '7', '-8', '3']), (91028, ['1', '6', '7', '-8', '3']), (91235, ['1', '6', '7', '-8', '3']), (91411, ['1', '6', '7', '-8', '3']), (91412, ['1', '6', '7', '-8', '3']), (91945, ['1', '6', '7', '-8', '3']), (92532, ['1', '6', '7', '-8', '3']), (92542, ['1', '6', '7', '-8', '3']), (92708, ['1', '6', '7', '-8', '3']), (92858, ['1', '6', '7', '-8', '3']), (93514, ['1', '6', '7', '-8', '3']), (94725, ['1', '6', '7', '-8', '3']), (94817, ['1', '6', '7', '-8', '3']), (94832, ['1', '6', '7', '-8', '3']), (95117, ['1', '6', '7', '-8', '3']), (95146, ['1', '6', '7', '-8', '3']), (95258, ['1', '6', '7', '-8', '3']), (95356, ['1', '6', '7', '-8', '3']), (95802, ['1', '6', '7', '-8', '3']), (100604, ['1', '6', '7', '-8', '3']), (100824, ['1', '6', '7', '-8', '3']), (100940, ['1', '6', '7', '-8', '3']), (101232, ['1', '6', '7', '-8', '3']), (101348, ['1', '6', '7', '-8', '3']), (101425, ['1', '6', '7', '-8', '3']), (102020, ['1', '6', '7', '-8', '3']), (102230, ['1', '6', '7', '-8', '3']), (102236, ['1', '6', '7', '-8', '3']), (102411, ['1', '6', '7', '-8', '3']), (102441, ['1', '6', '7', '-8', '3']), (102604, ['1', '6', '7', '-8', '3']), (102610, ['1', '6', '7', '-8', '3']), (102904, ['1', '6', '7', '-8', '3']), (103009, ['1', '6', '7', '-8', '3']), (103250, ['1', '6', '7', '-8', '3']), (103302, ['1', '6', '7', '-8', '3']), (103618, ['1', '6', '7', '-8', '3']), (104545, ['1', '6', '7', '-8', '3']), (104820, ['1', '6', '7', '-8', '3']), (105020, ['1', '6', '7', '-8', '3']), (105219, ['1', '6', '7', '-8', '3']), (105313, ['1', '6', '7', '-8', '3']), (105640, ['1', '6', '7', '-8', '3']), (110236, ['1', '6', '7', '-8', '3']), (110430, ['1', '6', '7', '-8', '3']), (110452, ['1', '6', '7', '-8', '3']), (110454, ['1', '6', '7', '-8', '3']), (110938, ['1', '6', '7', '-8', '3']), (111412, ['1', '6', '7', '-8', '3']), (111841, ['1', '6', '7', '-8', '3']), (112108, ['1', '6', '7', '-8', '3']), (112116, ['1', '6', '7', '-8', '3']), (113243, ['1', '6', '7', '-8', '3']), (113815, ['1', '6', '7', '-8', '3']), (114549, ['1', '6', '7', '-8', '3']), (114643, ['1', '6', '7', '-8', '3']), (114701, ['1', '6', '7', '-8', '3']), (114916, ['1', '6', '7', '-8', '3']), (114945, ['1', '6', '7', '-8', '3']), (115430, ['1', '6', '7', '-8', '3']), (115436, ['1', '6', '7', '-8', '3']), (115659, ['1', '6', '7', '-8', '3']), (115737, ['1', '6', '7', '-8', '3']), (115738, ['1', '6', '7', '-8', '3']), (115751, ['1', '6', '7', '-8', '3']), (120044, ['1', '2', '3']), (120211, ['1', '2', '3']), (120353, ['1', '2', '3']), (120719, ['1', '2', '3']), (121026, ['1', '2', '3']), (121043, ['1', '2', '3']), (121145, ['1', '2', '3']), (121206, ['1', '2', '3']), (121316, ['1', '2', '3']), (121430, ['1', '2', '3']), (121529, ['1', '2', '3']), (121733, ['1', '2', '3']), (122615, ['1', '2', '3']), (122700, ['1', '2', '3']), (122703, ['1', '2', '3']), (122737, ['1', '2', '3']), (122756, ['1', '2', '3']), (122811, ['1', '2', '3']), (122910, ['1', '2', '3']), (122933, ['1', '2', '3']), (123003, ['1', '2', '3']), (123141, ['1', '2', '3']), (123143, ['1', '2', '3']), (123243, ['1', '2', '3']), (123555, ['1', '2', '3']), (123609, ['1', '2', '3']), (124106, ['1', '2', '3']), (124136, ['1', '2', '3']), (124421, ['1', '2', '3']), (124822, ['1', '2', '3']), (125114, ['1', '2', '3']), (125448, ['1', '2', '3']), (125529, ['1', '2', '3']), (125529, ['1', '2', '3']), (125601, ['1', '2', '3']), (125800, ['1', '2', '3']), (130534, ['1', '2', '3']), (130551, ['1', '2', '3']), (130557, ['1', '2', '3']), (130708, ['1', '2', '3']), (130733, ['1', '2', '3']), (130949, ['1', '2', '3']), (131319, ['1', '2', '3']), (131658, ['1', '2', '3']), (132146, ['1', '2', '3']), (132236, ['1', '2', '3']), (132358, ['1', '2', '3']), (132512, ['1', '2', '3']), (133147, ['1', '2', '3']), (133339, ['1', '2', '3']), (133543, ['1', '2', '3']), (133730, ['1', '2', '3']), (134026, ['1', '2', '3']), (134034, ['1', '2', '3']), (134930, ['1', '2', '3']), (134957, ['1', '2', '3']), (135020, ['1', '2', '3']), (135255, ['1', '2', '3']), (135340, ['1', '2', '3']), (135345, ['1', '2', '3']), (135640, ['1', '2', '3']), (135707, ['1', '2', '3']), (135815, ['1', '2', '3']), (135910, ['1', '2', '3']), (140059, ['1', '2', '3']), (140121, ['1', '2', '3']), (140233, ['1', '2', '3']), (140430, ['1', '2', '3']), (140733, ['1', '2', '3']), (140910, ['1', '2', '3']), (141416, ['1', '2', '3']), (141437, ['1', '2', '3']), (141446, ['1', '2', '3']), (141536, ['1', '2', '3']), (141649, ['1', '2', '3']), (141813, ['1', '2', '3']), (141904, ['1', '2', '3']), (142013, ['1', '2', '3']), (142224, ['1', '2', '3']), (142313, ['1', '2', '3']), (143102, ['1', '2', '3']), (143136, ['1', '2', '3']), (143148, ['1', '2', '3']), (143404, ['1', '2', '3']), (143435, ['1', '2', '3']), (143652, ['1', '2', '3']), (143736, ['1', '2', '3']), (144008, ['1', '2', '3']), (144132, ['1', '2', '3']), (144304, ['1', '2', '3']), (144311, ['1', '2', '3']), (144429, ['1', '2', '3']), (144528, ['1', '2', '3']), (144531, ['1', '2', '3']), (144610, ['1', '2', '3']), (144634, ['1', '2', '3']), (145156, ['1', '2', '3']), (145338, ['1', '2', '3']), (145556, ['1', '2', '3']), (145735, ['1', '2', '3']), (145846, ['1', '2', '3'])]
+2 -> 3 : [(10000, 1), (20000, 3), (30000, 6), (40000, 8), (50000, 10), (60000, 15), (70000, 17), (80000, 20), (90000, 22), (100000, 22), (110000, 27), (120000, 24), (130000, 32), (140000, 28)]
+2 -> 5 : [(10000, 1), (20000, 2), (30000, 1), (40000, 2), (50000, 2), (60000, 0), (70000, 0), (80000, 0), (90000, 0), (100000, 3), (110000, 0), (120000, 6), (130000, 0), (140000, 7)]
+2 -> 6 : [(10000, 0), (20000, 0), (30000, 0), (40000, 0), (50000, 0), (60000, 0), (70000, 0), (80000, 0), (90000, 0), (100000, 0), (110000, 0), (120000, 0), (130000, 0), (140000, 0)]
+3 -> 2 : [(10000, 0), (20000, 0), (30000, 0), (40000, 0), (50000, 0), (60000, 0), (70000, 0), (80000, 0), (90000, 0), (100000, 0), (110000, 0), (120000, 0), (130000, 0), (140000, 0)]
+3 -> 4 : [(10000, 1), (20000, 3), (30000, 6), (40000, 8), (50000, 10), (60000, 15), (70000, 17), (80000, 20), (90000, 22), (100000, 22), (110000, 27), (120000, 24), (130000, 32), (140000, 28)]
+3 -> 7 : [(10000, 0), (20000, 0), (30000, 0), (40000, 0), (50000, 0), (60000, 0), (70000, 0), (80000, 0), (90000, 0), (100000, 0), (110000, 0), (120000, 0), (130000, 0), (140000, 0)]
+4 -> 3 : [(10000, 0), (20000, 0), (30000, 0), (40000, 0), (50000, 0), (60000, 0), (70000, 0), (80000, 0), (90000, 0), (100000, 0), (110000, 0), (120000, 0), (130000, 0), (140000, 0)]
+4 -> 5 : [(10000, 0), (20000, 0), (30000, 0), (40000, 0), (50000, 0), (60000, 0), (70000, 0), (80000, 0), (90000, 0), (100000, 0), (110000, 0), (120000, 0), (130000, 0), (140000, 0)]
+5 -> 2 : [(10000, 0), (20000, 0), (30000, 0), (40000, 0), (50000, 0), (60000, 0), (70000, 0), (80000, 0), (90000, 0), (100000, 0), (110000, 0), (120000, 0), (130000, 0), (140000, 0)]
+5 -> 4 : [(10000, 1), (20000, 2), (30000, 1), (40000, 2), (50000, 2), (60000, 0), (70000, 0), (80000, 0), (90000, 0), (100000, 3), (110000, 0), (120000, 6), (130000, 0), (140000, 7)]
+6 -> 2 : [(10000, 0), (20000, 0), (30000, 0), (40000, 0), (50000, 0), (60000, 0), (70000, 0), (80000, 0), (90000, 0), (100000, 0), (110000, 0), (120000, 0), (130000, 0), (140000, 0)]
+6 -> 7 : [(10000, 0), (20000, 0), (30000, 0), (40000, 0), (50000, 0), (60000, 0), (70000, 0), (80000, 0), (90000, 0), (100000, 0), (110000, 0), (120000, 0), (130000, 0), (140000, 0)]
+7 -> 3 : [(10000, 0), (20000, 0), (30000, 0), (40000, 0), (50000, 0), (60000, 0), (70000, 0), (80000, 0), (90000, 0), (100000, 0), (110000, 0), (120000, 0), (130000, 0), (140000, 0)]
+7 -> 6 : [(10000, 0), (20000, 0), (30000, 0), (40000, 0), (50000, 0), (60000, 0), (70000, 0), (80000, 0), (90000, 0), (100000, 0), (110000, 0), (120000, 0), (130000, 0), (140000, 0)]

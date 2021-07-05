@@ -2,13 +2,13 @@ from sumo_visum import *
 from utility import *
 
 
-def simulateTime(visum, folder, sumo_nodes, simulation_startTime=0, simulation_endTime=230000, visumStep=10000,
-                 simulationStep=1, procedure_threshhold=0, generate_option=2, inLinksSumo=[]):
+def simulateTime(visum, procedurePath, sumo_nodes, simulation_startTime=0, simulation_endTime=230000, visumStep=10000,
+                 simulationStep=1, procedure_threshhold=0, generate_option=2, inLinksSumo=None):
     """
     Simulation der Zeit der Simulatorenkopplung
 
-    :param visum:
-    :param folder:
+    :param visum: instance of the macroscopic simulation
+    :param procedurePath: path of the matching procedureParameters.xml
     :param sumo_nodes: relevant nodes in microskopic simulation model sumo
     :param simulation_startTime: start time of the simulation in seconds
     :param simulation_endTime: end time of the simulation in seconds (e.g. 230000 means 23:00:00)
@@ -16,15 +16,18 @@ def simulateTime(visum, folder, sumo_nodes, simulation_startTime=0, simulation_e
     :param simulationStep: steps of the script in seconds (default 1)
     :param procedure_threshhold: defines the acceptable difference between counted and estimated
     :param generate_option: use of complete path (1) or only destination link (2)
+    :param inLinksSumo: all ingoing links to sumo, for statistic purposes
     :return:
     """
+    if inLinksSumo is None:
+        inLinksSumo = []
     # Relevante Turns rausfiltern (außer U-Turns)
     noReturns = visum.Net.Turns.FilteredBy("[FromNodeNo] != [ToNodeNo]")
     logicTurns = ""
     for i in range(len(sumo_nodes)):
         logicTurns += "[ViaNodeNo] = " + str(sumo_nodes[i]) + " | "
     sumo_turns = noReturns.FilteredBy(logicTurns[:-3])
-    # Relevante Übergangsstrecken Visum-Sumo und umgekehrt rausfiltern
+    # Relevante Übergangsstrecken Visum-Sumo rausfiltern
     logicLinks = "("
     for i in range(len(sumo_nodes)):
         logicLinks += "[ToNodeNo] = " + str(sumo_nodes[i]) + " | "
@@ -33,7 +36,7 @@ def simulateTime(visum, folder, sumo_nodes, simulation_startTime=0, simulation_e
         logicLinks += "[FromNodeNo] != " + str(sumo_nodes[i]) + " & "
     links_to_sumo = visum.Net.Links.FilteredBy(logicLinks[:-3])
     nDetectors = links_to_sumo.Count
-    originCaps = getVolAndCap_Visum(links_to_sumo, 0)
+    originCaps = getVolAndCap_Visum(visum, links_to_sumo, 0)
     gesamteAuslastung = 0
 
     # Plotting for Evaluation
@@ -43,7 +46,12 @@ def simulateTime(visum, folder, sumo_nodes, simulation_startTime=0, simulation_e
         plannedVehs.append([])
     registratedVehs = []
     neueUmlegung = []
-
+    recordLinkVolumes = []
+    rec = []
+    volumenInSumo = []
+    sumoLinksTuples = [(13, 14), (13, 18), (14, 13), (14, 19), (18, 13), (18, 19), (19, 18), (19, 14)]  # BezirkeUndKreuzungen
+    # sumoLinksTuples = [(2, 3), (2, 5), (2, 6), (3, 2), (3, 4), (3, 7), (4, 3), (4, 5), (5, 2), (5, 4), (6, 2), (6, 7), (7, 3), (7, 6)]  # Streckensperrung
+    volumenInVisum = [[] for _ in range(len(sumoLinksTuples))]
 
     generatedVehicles = []  # Liste mit allen erzeugten Fahrzeugen (ID, path_nodes)
     generatedVehicleCounter = 0
@@ -55,22 +63,45 @@ def simulateTime(visum, folder, sumo_nodes, simulation_startTime=0, simulation_e
         # Simulationsschritt in Visum (-> neue Daten)
         if curTime % visumStep == 0:
             print(str(convertToTime(str(curTime).zfill(6))))
-            if len(allPaths_links) != 0:  # Es sind Fahrzeuge gefahren
-                # Gegebenenfalls Umlegung neu starten
-                links_in_visum = getVolAndCap_Visum(links_to_sumo, curTime)
-                links_in_sumo = getVol_Sumo(allPaths_links)
-                modified = capacityModification(visum, links_in_visum, links_in_sumo, procedure_threshhold, originCaps)
-
+            if curTime == 80000:
+                sumo.setDisallowed("2_0")
+            if curTime == 120000:
+                sumo.setAllowed("2_0")
+            if curTime != simulation_startTime:
+                # Zählen, Anpassungen der Kapazitätsbeschränkungen, neue Umlegung
+                transfer_links_visum = getVolAndCap_Visum(visum, links_to_sumo, curTime)
+                transfer_links_sumo = getVol_Sumo(allPaths_links)
+                print("[INFO: transfer Visum-Sumo]:", transfer_links_visum, "\n", transfer_links_sumo)
+                modified = capacityModification(visum, transfer_links_visum, transfer_links_sumo, procedure_threshhold,
+                                                originCaps)
                 allPaths_links = []
                 if modified:
                     # Umlegung neu starten
-                    # visum.Procedures.Open(os.path.abspath(folder + "Visum/procedureParameters.xml"), True, True, True)
-                    # visum.Procedures.Execute()
+                    visum.Procedures.Open(os.path.abspath(procedurePath), True, True, True)
+                    visum.Procedures.Execute()
                     print("Umlegung ausgeführt")
                     neueUmlegung.append(True)
                 else:
                     neueUmlegung.append(False)
+                # Für Statistik Daten der letzten Stunde auslesen (nach ggf neuer Umlegung)
+                # Tupel aus Zeit und Liste der Auslastungen des letzten Zeitschritts (als Tupel: No, Sumo, Visum)
+                print("curVolumes:", (curTime, record(transfer_links_sumo, transfer_links_visum)))
+                recordLinkVolumes.append((curTime, record(transfer_links_sumo, transfer_links_visum)))
+
+                # Für letzten Schritt neu berechnete Daten aus Visum abspeichern
+                for i in range(len(sumoLinksTuples)):
+                    volumenInVisum[i].append((curTime, getDataFromVisum(
+                        visum.Net.Links.ItemByKey(sumoLinksTuples[i][0], sumoLinksTuples[i][1]), curTime - visumStep)))
+
+                # Kapazitätsbeschränkungen entfernen und neue Umlegung für nächste Stunde
+                if modified:
+                    capacityModification(visum, transfer_links_visum, transfer_links_sumo, procedure_threshhold,
+                                         originCaps, True)
+                    visum.Procedures.Open(os.path.abspath(procedurePath), True, True, True)
+                    visum.Procedures.Execute()
             else:
+                visum.Procedures.Open(os.path.abspath(procedurePath), True, True, True)
+                visum.Procedures.Execute()
                 neueUmlegung.append(False)
 
             allEvents = []
@@ -83,10 +114,12 @@ def simulateTime(visum, folder, sumo_nodes, simulation_startTime=0, simulation_e
                                                                    int(link.AttValue("No")),
                                                                    int(link.AttValue("FromNodeNo")),
                                                                    int(link.AttValue("ToNodeNo")))
+                    rec.append((curTime, temp_curFlowRate, len(eventList_oneLink), eventList_oneLink))
                     allEvents.append(eventList_oneLink)
                     temp = str(curTime).zfill(6)
                     tempTime = sum([int(temp[0:2]) * 3600, int(temp[2:4]) * 60, int(temp[4:6]) * 1])
-                    plannedVehs[inLinksSumo.index(link.AttValue("No"))].append(len([e for e in eventList_oneLink if e[0] < tempTime]))
+                    plannedVehs[inLinksSumo.index(link.AttValue("No"))].append(
+                        len([e for e in eventList_oneLink if e[0] < tempTime]))
                 else:
                     plannedVehs[inLinksSumo.index(link.AttValue("No"))].append(0)
                 dataInLinksSumo[inLinksSumo.index(link.AttValue("No"))].append(temp_curFlowRate)
@@ -97,7 +130,11 @@ def simulateTime(visum, folder, sumo_nodes, simulation_startTime=0, simulation_e
         if len(allEvents_flat) != 0:
             while allEvents_flat[0][0] == sumo.getTime():
                 path_nodes, path_links = planPath(visum, curTime, allEvents_flat[0], sumo_turns, sumo_nodes, visumStep)
+                if path_nodes is None:
+                    del allEvents_flat[0]
+                    continue
                 generatedVehicleCounter = generateVehicle(path_links, generatedVehicleCounter, generate_option)
+                volumenInSumo.append((curTime, list(sumo.getRoute("newVeh" + str(generatedVehicleCounter - 1)))))
                 generatedVehicles.append((generatedVehicleCounter, path_nodes, path_links))
                 print("new vehicle" + str(generatedVehicleCounter - 1) + " @",
                       str(convertToTime(str(curTime).zfill(6))),
@@ -125,21 +162,27 @@ def simulateTime(visum, folder, sumo_nodes, simulation_startTime=0, simulation_e
     print("Gesamte Auslastung:", gesamteAuslastung)
     print("Summe erzeugter Fahrzeuge:", generatedVehicleCounter)
     print("-> Fahrzeuge verloren:", gesamteAuslastung - generatedVehicleCounter)
-
-    listHours = range(0, 23)
-    for i in range(len(dataInLinksSumo)):
-        plt.plot(listHours, dataInLinksSumo[i], label=str(inLinksSumo[i])+"_data")
-        plt.plot(listHours, plannedVehs[i], label=str(inLinksSumo[i])+"_planned")
-    plt.xlabel('Time [h]')
-    plt.ylabel('CurFlowRate In')
-    plt.legend(loc='upper right')
-    plt.show()
-    onlyIDs = [int(e[6:]) for e in registratedVehs]
-    print("Registrated Vehicles:", onlyIDs)
-    print("Doubled?", len(set(onlyIDs)) != len(onlyIDs))
-    onlyIDs.sort()
-    print("Sorted (without doubles):", list(set(onlyIDs)))
     print("Neue Umlegungen nötig:", neueUmlegung)
+
+    gesamtRec = []
+    for i in range(len(inLinksSumo)):
+        gesamtRec.append([])
+    for i in range(len(rec)):
+        temp = [x[0] for x in rec[i][3]]
+        count = len(temp) - 1
+        count2 = rec[i][1]
+        if len(temp) <= 1:
+            count = -1
+        if rec[i][1] == 0:
+            count2 = -1
+        gesamtRec[inLinksSumo.index(rec[i][3][0][1])].append(
+            (rec[i][1], rec[i][2], int(3600 / count2), int((temp[-1] - temp[0]) / count)))
+    print("Tupel bestehend aus: VolVisum, geplantesVolSumo, avgArrTimeVisum, avgArrTimeSumo")
+    for i in range(len(links_to_sumo)):
+        print("Link:", inLinksSumo[i], "->", gesamtRec[i])
+    print("VolumenInSumo:", volumenInSumo)
+    for i in range(len(sumoLinksTuples)):
+        print(sumoLinksTuples[i][0], "->", sumoLinksTuples[i][1], ":", volumenInVisum[i])
 
 
 def sampleAbsoluteArrivalTimes(curTime, curFlowRate, visumInterval, linkNo, fromNode, toNode):
@@ -157,10 +200,11 @@ def sampleAbsoluteArrivalTimes(curTime, curFlowRate, visumInterval, linkNo, from
     res = []
     temp = str(curTime).zfill(6)
     tempTime = sum([int(temp[0:2]) * 3600, int(temp[2:4]) * 60, int(temp[4:6]) * 1])
+    endTime = tempTime + visumInterval
     mean_headway = visumInterval / curFlowRate
 
     # Durchschnittliche Zeit zwischen 2 Fahrzeugankünften (z.B. 3600s/15=240s)
-    for _ in range(curFlowRate):
+    while tempTime < endTime:
         nextInterval = doubleToInt(exponential_distributed_arrival_intervals(mean_headway))  # mean_headway als Argument
         # Tupel aus Eventzeit, Link-Nummer und beiden Knoten des Links
         res.append((int(tempTime + nextInterval), int(linkNo), int(fromNode), int(toNode)))
@@ -200,7 +244,10 @@ def planPath(visum, curTime, event, sumo_turns, sumo_nodes, visumStep):
             flowRatesTurns.append(t)
             it.Next()
         # Unter Einbeziehung der flowrates zufällig (gewichtet) einen Abbieger wählen und zum Pfad hinzufügen
-        toNodeNo = int(weighted_choice_turns(flowRatesTurns))
+        toNodeNo = weighted_choice_turns(flowRatesTurns)
+        if toNodeNo is None:
+            return None, None
+        toNodeNo = int(toNodeNo)
         # Vermeidung von Zyklen (Erneutes Einfügen führt zur Entfernung des Zyklus)
         if toNodeNo not in path_nodes:
             path_nodes.append(toNodeNo)

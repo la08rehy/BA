@@ -1,31 +1,31 @@
 from visum_sumo import *
 from sumo_visum import *
 
-visum = None
 
-
-if __name__ == '__main__':
+def run():
     folder = "H:/Benutzer/Joshua/git/bachelorarbeit/"
-    fileName = "MehrereKreuzungen_hierarchisch"
-    # fileName = "Beispiel_von_Moritz"
-    # fileName = "Achteck2xSumo"
+    fileName = "BezirkeUndKreuzungen"
+    # fileName = "Streckensperrung"
+    # fileName = "2xSumo_sequentiell"
     # Starten von Visum
-    visumPath = os.path.abspath(folder + "Visum/" + fileName + ".ver")
+    visumPath = os.path.abspath(folder + "Visum/Verwendet/" + fileName + ".ver")
     visum = win32com.client.Dispatch("Visum.Visum")
     visum.LoadVersion(visumPath)
 
     # Starten von Sumo
-    fileName += "_nurSumo"
-    sumoPath = os.path.abspath(folder + "Sumo/" + fileName + ".sumocfg")
+    sumoPath = os.path.abspath(folder + "Sumo/Verwendet/" + fileName + ".sumocfg")
     sumo.start(sumoPath)
 
-    # Kopplung der Simulatoren
-    simulateTime(visum, folder, [13, 14, 18, 19], 0, 230000, 10000, 1, 5, 2, [12, 14, 16, 32, 34, 36, 64, 66])
-    # simulateTime(visum, folder, [3, 4, 8, 9, 13, 14, 18, 19, 23, 24, 36, 37], 0, 230000)
-    # simulateTime(visum, folder, [2, 3, 6, 7], 0, 10000)
-    # simulateTime(visum, folder, [3, 4, 7, 8], 0, 10000)
-    # bezirkeUndKreuzungen inLinks: [12, 14, 17, 19, 42, 44, 47, 49]
+    # Kopplung der Simulatoren (verwendete Beispiele)
+    procedurePath = folder + "Visum/Verwendet/" + fileName + "_procedureParameters.xml"
+    simulateTime(visum, procedurePath, [13, 14, 18, 19], 0, 150000, 10000, 1, 5, 2, [12, 14, 16, 32, 34, 36, 64, 66])  # BezirkeUndKreuzungen
+    # simulateTime(visum, procedurePath, [2, 3, 5, 6, 7], 0, 150000, 10000, 1, 0, 2, [1, 3, 5])  # Strassensperre
+    # simulateTime(visum, procedurePath, [2, 4], 0, 100000, 10000, 1, 0, 2, [1, 2, 3, 4])  # 2xSumo_sequentiell
 
     # Speichern und schließen
     sumo.close()
-    # visum.SaveVersion(visumPath)  # TODO evtl später einkommentieren
+    # visum.SaveVersion(visumPath)
+
+
+if __name__ == '__main__':
+    run()

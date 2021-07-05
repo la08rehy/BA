@@ -1,0 +1,41 @@
+$VISION
+* PTV Group
+* 03.07.21
+* 
+* Tabelle: Versionsblock
+* 
+$VERSION:VERSNR;FILETYPE;LANGUAGE;UNIT
+12;Net;DEU;KM
+
+* 
+* Tabelle: Knoten
+* 
+$KNOTEN:Nr;XkOORD;YkOORD
+1;0;0
+2;100;0
+3;200;0
+4;300;0
+5;100;-100
+6;100;100
+7;200;100
+
+* 
+* Tabelle: Strecken
+* 
+$STRECKE:Nr;VonKnot;NachKnot;Typ;VSysSet;KapIV;v0-iv
+1;1;2;1;B,F,P;100;50km/h
+1;2;1;1;B,F,P;100;50km/h
+2;2;3;1;B,F,P;100;50km/h
+2;3;2;1;B,F,P;100;50km/h
+3;3;4;1;B,F,P;100;50km/h
+3;4;3;1;B,F,P;100;50km/h
+5;4;5;1;B,F,P;100;50km/h
+5;5;4;1;B,F,P;100;50km/h
+6;2;6;1;B,F,P;100;50km/h
+6;6;2;1;B,F,P;100;50km/h
+7;6;7;1;B,F,P;100;50km/h
+7;7;6;1;B,F,P;100;50km/h
+8;3;7;1;B,F,P;100;50km/h
+8;7;3;1;B,F,P;100;50km/h
+9;2;5;1;B,F,P;100;50km/h
+9;5;2;1;B,F,P;100;50km/h
